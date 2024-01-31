@@ -1,0 +1,61 @@
+{
+    "header": {
+        "home-nav": "Home",
+        "about-nav": "About",
+        "Resume-nav": "Resume",
+        "projects-nav": "Projects",
+        "contact-nav": "Contact"
+    },
+
+    "hero": {
+        "h4-greeting-hero": "<span>Hi There,</span> It's Me",
+        "h1-im-hero": "And I'm a",
+        "p-presentation-hero": "I'm a creative designer, passionate and dedicated to crafting innovative and visually appealing designs in every project.",
+        "a-downloadcv-hero": "Download CV"
+    },
+
+    "about": {
+        "h2-about-about": "About Me",
+        "h1-title-about": "Full Stack Developer",
+        "p-paragraph-about": "Passionate about graphic design and user experience, I stand out for my contribution to academic projects, such as creating an innovative web repository and collaborating on the development of a mobile application.<br><br> I am seeking opportunities to apply my creativity, learn in a professional environment, and excel in digital design."
+    },
+
+    "resume": {
+        "h2-resume-title": "Resume",
+        "a-education-resume": "Education",
+        "a-skills-resume": "skills",
+        "div-education-resume": "Education",
+        "h4-technician-resume": "Professional Technician in Computer Applications Programming",
+        "span-university-resume": "Cotecnova University",
+        "p-paragraph-resume": "As a Computer Application Programming Technician, I develop solutions, creating computer programs, databases and web applications using current tools based on the needs of the commercial, industrial and general sectors, providing support to users of computer systems.",
+        "h4-Technologist-resume": "Technologist in Information systems management",
+        "span-university2-resume": "Cotecnova University",
+        "p-paragraph2-resume": "As a Technologist in Information Systems Management I can work in public and private companies or institutions, occupying positions and/or administrative and productive activities in the area of ​​development of computer solutions.",
+        "h4-engineer-resume": "Systems Engineer",
+        "span-university3-resume": "Cotecnova University",
+        "p-paragraph3-resume": "As a Systems Engineering professional I can work in public or private companies or institutions, occupying managerial positions and/or activities, developing and implementing projects in the area of ​​Information and Communications Technologies.",
+        "div-titleSkills-resume": "Skills"
+    },
+
+    "projects": {
+        "h2-projects-projects": "Projects",
+        "li-all-projects": "All",
+        "li-app-projects": "App",
+        "li-card-projects": "Card",
+        "p-login-projects": "simple login not functional",
+        "p-pokedex-projects": "Pokedex with PokeApi"
+    },
+
+    "contact": {
+        "h2-contact-contact": "Contact Me",
+        "span-name-contact": "Name",
+        "span-email-contact": "Email",
+        "span-message-contact": "Message",
+        "span-send-contact": "Send Message"
+    },
+
+    "footer": {
+        "p-description-footer": "This portfolio was made with the following technologies",
+        "div-copyright-footer": "&#169; CarlosRios. All right reserved"
+    }
+}

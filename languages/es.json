@@ -1,0 +1,61 @@
+{
+    "header": {
+        "home-nav": "Inicio",
+        "about-nav": "Sobre mi",
+        "Resume-nav": "Resumen",
+        "projects-nav": "Proyectos",
+        "contact-nav": "Contactarme"
+    },
+
+    "hero": {
+        "h4-greeting-hero": "<span>Hola,</span> soy yo",
+        "h1-im-hero": "y soy",
+        "p-presentation-hero": "Soy un diseñador creativo, apasionado y dedicado a crear diseños innovadores y visualmente atractivos en cada proyecto.",
+        "a-downloadcv-hero": "Descargar CV"
+    },
+
+    "about": {
+        "h2-about-about": "Sobre Mi",
+        "h1-title-about": "Desarrollador",
+        "p-paragraph-about": "Apasionado por el diseño gráfico y la experiencia de usuario, me destaco por mi contribución en proyectos académicos, como la creación de un repositorio web innovador y colaborar en el desarrollo de una aplicación móvil.<br><br>Busco oportunidades para aplicar mi creatividad, aprender en un entorno profesional y sobresalir en diseño digital."
+    },
+
+    "resume": {
+        "h2-resume-title": "Resumen",
+        "a-education-resume": "Educación",
+        "a-skills-resume": "Habilidades",
+        "div-education-resume": "Educación",
+        "h4-technician-resume": "Técnico profesional en programación de aplicaciones informáticas",
+        "span-university-resume": "Universidad de Cotecnova",
+        "p-paragraph-resume": "Como Técnico en Programación de Aplicaciones Informáticas, desarrollo soluciones, creando programas informáticos, bases de datos y aplicaciones web utilizando herramientas actuales basadas en las necesidades del sector comercial, industrial y en general, brindando soporte a los usuarios de sistemas informáticos.",
+        "h4-Technologist-resume": "Tecnólogo en gestión de sistemas de información",
+        "span-university2-resume": "Universidad de Cotecnova",
+        "p-paragraph2-resume": "Como Tecnólogo en Gestión de Sistemas de Información puedo desempeñarse en empresas o instituciones públicas y privadas, ocupando cargos y/o actividades administrativas y productivas en el área de desarrollo de soluciones informáticas.",
+        "h4-engineer-resume": "Ingeniero de sistemas",
+        "span-university3-resume": "Universidad de Cotecnova",
+        "p-paragraph3-resume": "Como profesional de Ingeniería de Sistemas puedo desempeñarme en empresas o instituciones públicas o privadas, ocupando cargos y/o actividades gerenciales, desarrollo e implementación de proyectos en el área de las Tecnologías de la Información y las Comunicaciones.",
+        "div-titleSkills-resume": "Habilidades"
+    },
+
+    "projects": {
+        "h2-projects-projects": "Proyectos",
+        "li-all-projects": "Todo",
+        "li-app-projects": "Aplicación",
+        "li-card-projects": "Carta",
+        "p-login-projects": "Simple inicio de sesión no funcional",
+        "p-pokedex-projects": "Pokedex hecha con PokeApi"
+    },
+
+    "contact": {
+        "h2-contact-contact": "Contactarme",
+        "span-name-contact": "Nombre",
+        "span-email-contact": "Correo",
+        "span-message-contact": "Mensaje",
+        "span-send-contact": "Enviar Mensaje"
+    },
+
+    "footer": {
+        "p-description-footer": "Este portafolio fue hecho con las siguientes tecnologías.",
+        "div-copyright-footer": "&#169; CarlosRios. Todos los derechos reservados"
+    }
+}

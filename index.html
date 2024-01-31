@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Main file css -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mixitup@3.3.1/dist/mixitup.min.css">
+
+    <title>Responsive Personal Portfolio Website</title>
+</head>
+<body>
+    <!--=============== Header =============== -->
+    <header id="header">
+        <div class="container">
+            <a href="" class="logo">
+                <h1 class="img-fluid">C<span>R</span></h1>
+            </a>
+            <div id="flags" class="flags">
+                <div class="flags_item" data-language="es">
+                    <img src="/assets/es.svg" alt="">
+                </div>
+                <div class="flags_item" data-language="en">
+                    <img src="/assets/gb.svg" alt="">
+                </div>
+            </div>
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#hero" class="menu_link active-link" data-section="header" data-value="home-nav">Home</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#about" class="menu_link" data-section="header" data-value="about-nav">About</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#resume" class="menu_link" data-section="header" data-value="Resume-nav">Resume</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#portfolio" class="menu_link" data-section="header" data-value="projects-nav">Projects</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#contact" class="menu_link" data-section="header" data-value="contact-nav">Contact</a>
+                </li>
+                <ion-icon name="close-outline" class="close_icon"></ion-icon>
+            </ul>
+            <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
+        </div>
+    </header>
+
+    <main>
+        <!-- ======== Hero Section ========= -->
+        <section class="hero section" id="hero">
+            <div class="hero_container container grid glass-effect">
+                <div class="hero_content">
+                    <h4 data-section="hero" data-value="h4-greeting-hero"><span>Hi There,</span> It's Me</h4>
+                    <h3 >Carlos Rios</h3>
+                    <div class="rol_container">
+                        <h1 data-section="hero" data-value="h1-im-hero">And I'm a </h1>
+                        <span class="typed" data-typed-items="FrontEnd, Designer, Developer"></span>
+                    </div>
+                    
+                    <p data-section="hero" data-value="p-presentation-hero">
+                        I'm a creative designer, passionate and dedicated to crafting innovative and visually appealing designs in every project.
+                    </p>
+                    <div class="hero_social">
+                        <a href="https://www.linkedin.com/in/carlos-rios-dev/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://github.com/CarlosRios-dev" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    </div>
+                    <div class="herobtns">
+                        <a href="#" class="btn">
+                            <span data-section="hero" data-value="a-downloadcv-hero">Download CV</span>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero_img">
+                    <img src="/assets/space.png" alt="space" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+         <!-- ======== About Section ========= -->
+         <section class="about section" id="about">
+            <img src="/assets/stars.png" alt="stars" id="stars">
+            <img src="/assets/moon.png" alt="moon" id="moon">
+            <img src="/assets/mountains_behind.png" alt="mountains_behind" id="mountains_behind">
+            <img src="/assets/mountains_front.png" alt="mountains_behind" id="mountains_front">
+            <div class="allabout">
+                <div class="titleh2 container">
+                    <h2 class="section_title" data-section="about" data-value="h2-about-about">About Me</h2>
+                </div>
+    
+                <div class="about_container container grid glass-effect">
+                    <div class="about_img">
+                        <img src="/assets/Coding.png" alt="">
+                    </div>
+                    <div class="about_content">
+                        <h1 data-section="about" data-value="h1-title-about">Full Stack Developer</h1>
+                        <p data-section="about" data-value="p-paragraph-about">
+                            Passionate about graphic design and user experience, I stand out for my contribution to academic projects, such as creating an innovative web repository and collaborating on the development of a mobile application. 
+                            <br><br>
+                            I am seeking opportunities to apply my creativity, learn in a professional environment, and excel in digital design.
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- ======== Resume Section ========= -->
+         <section class="resume section" id="resume">
+            <h2 class="section_title" data-section="resume" data-value="h2-resume-title">Resume</h2>
+
+            <div class="resume_container container grid">
+                <div class="resume_tabs">
+                    <ul>
+                        <li>
+                            <a href="#page-1" class="current" data-section="resume" data-value="a-education-resume">Education</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#page-2">Experience</a>
+                        </li> -->
+                        <li>
+                            <a href="#page-3" data-section="resume" data-value="a-skills-resume">Skills</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume_content">
+                    <div id="page-1" class="page one">
+                        <div class="page_heading" data-section="resume" data-value="div-education-resume">Education</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2019</span>
+                                <h4 data-section="resume" data-value="h4-technician-resume">Professional technician in computer applications programming</h4>
+                                <span class="position" data-section="resume" data-value="span-university-resume">Cotecnova University</span>
+                                <p data-section="resume" data-value="p-paragraph-resume">
+                                    As a Computer Application Programming Technician, I develop solutions, creating computer programs, databases and web applications using current tools based on the needs of the commercial, industrial and general sectors, providing support to users of computer systems.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2021</span>
+                                <h4 data-section="resume" data-value="h4-Technologist-resume">Technologist in information systems management</h4>
+                                <span class="position" data-section="resume" data-value="span-university2-resume">Cotecnova University</span>
+                                <p data-section="resume" data-value="p-paragraph2-resume">
+                                    As a Technologist in Information Systems Management I can work in public and private companies or institutions, occupying positions and/or administrative and productive activities in the area of ​​development of computer solutions.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2023</span>
+                                <h4 data-section="resume" data-value="h4-engineer-resume">Systems engineer</h4>
+                                <span class="position" data-section="resume" data-value="span-university3-resume">Cotecnova University</span>
+                                <p data-section="resume" data-value="p-paragraph3-resume">
+                                    As a Systems Engineering professional I can work in public or private companies or institutions, occupying managerial positions and/or activities, developing and implementing projects in the area of ​​Information and Communications Technologies.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="page-3" class="page three">
+                        <div class="page_heading gl" data-section="resume" data-value="div-titleSkills-resume">Skills</div>
+                        <div class="slider">
+                            <div class="slide-track">
+                                <div class="slide img-fluid">
+                                    <img src="/assets/HTML5.png" alt="">
+                                </div>
+                                <div class="slide slide img-fluid">
+                                    <img src="/assets/CSS3.png" alt="">
+                                </div>
+                                <div class="slide slide img-fluid">
+                                    <img src="/assets/JavaScript.png" alt="">
+                                </div>
+                                <div class="slide slide img-fluid">
+                                    <img src="/assets/php.png" alt="">
+                                </div>
+                            </div>
+                            <div class="slide-trackReverse">
+                                <div class="slide slide img-fluid">
+                                    <img src="/assets/SQL.png" alt="">
+                                </div>
+                                <div class="slide slide img-fluid">
+                                    <img src="/assets/git.png" alt="">
+                                </div>
+                                <div class="slide slide img-fluid">
+                                    <img src="/assets/react.png" alt="">
+                                </div>
+                                <div class="slide slide img-fluid">
+                                    <img src="/assets/MySql.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- ======== Projects Section ========= -->
+         <section class="portfolio section" id="portfolio">
+            <div class="allabout">
+                <div class="container">
+                    <h2 class="section_title" data-section="projects" data-value="h2-projects-projects">Projects</h2>
+                </div>
+                
+                <div class="portfolio_container container">
+                    <ul class="portfolio_filters">
+                        <li data-filter="*" class="filter-active" data-section="projects" data-value="li-all-projects">All</li>
+                        <li data-filter=".filter-app" data-section="projects" data-value="li-app-projects">App</li>
+                        <li data-filter=".filter-card" data-section="projects" data-value="li-card-projects">Card</li>
+                        <li data-filter=".filter-web">Web</li>
+                    </ul>
+                    <div class="portfolio_wrap-container">
+                        <div class="portfolio_item filter-web">
+                            <div class="portfolio_wrap">
+                                <div class="video-container">
+                                    <video src="assets/LoginAD.mp4" muted playsinline loop type="video/mp4"></video>
+                                </div>
+                                <div class="portfolio_info">
+                                    <h4>Simple Login</h4>
+                                    <p data-section="projects" data-value="p-login-projects">simple login not functional</p>
+                                    <div class="portfolio_links">
+                                        <div class="viewLink">
+                                            <div class="tooltip">View</div>
+                                            <a href="https://carlosrios-dev.github.io/simple-login/" target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                        </div>
+                                        <div class="viewCode">
+                                            <div class="tooltip">Code</div>
+                                            <a href="https://github.com/CarlosRios-dev/simple-login" target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio_item filter-app">
+                            <div class="portfolio_wrap">
+                                <div class="video-container">
+                                    <video src="assets/Pokedex.mp4" muted playsinline loop type="video/mp4"></video>
+                                </div>
+                                <div class="portfolio_info">
+                                    <h4>Pokedex</h4>
+                                    <p data-section="projects" data-value="p-pokedex-projects">Pokedex with PokeApi</p>
+                                    <div class="portfolio_links">
+                                        <div class="viewLink">
+                                            <div class="tooltip">View</div>
+                                            <a href="https://carlosrios-dev.github.io/Simple-Pokedex-/" target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                        </div>
+                                        <div class="viewCode">
+                                            <div class="tooltip">Code</div>
+                                            <a href="https://github.com/CarlosRios-dev/Simple-Pokedex-" target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio_item">
+                            <div class="portfolio_wrap">
+                                <img src="/assets/in_progress.png" alt="card" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="portfolio_item">
+                            <div class="portfolio_wrap">
+                                <img src="/assets/in_progress.png" alt="card" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="portfolio_item">
+                            <div class="portfolio_wrap">
+                                <img src="/assets/in_progress.png" alt="card" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="portfolio_item">
+                            <div class="portfolio_wrap">
+                                <img src="/assets/in_progress.png" alt="card" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- ======== Contact Section ========= -->
+         <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section_title" data-section="contact" data-value="h2-contact-contact">Contact Me</h2>
+            </div>
+            
+            <form action="https://formsubmit.co/carlosriosdev@gmail.com" method="POST">
+                <div class="contact_container container">
+                    <div class="contact_content">
+                        <span data-section="contact" data-value="span-name-contact">Name</span>
+                        <input type="text" name="name" placeholder="Juan...">
+                        <span data-section="contact" data-value="span-email-contact">Email</span>
+                        <input type="email" name="email" placeholder="test@gmail.com">
+                        <span data-section="contact" data-value="span-message-contact">Message</span>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Hello..."></textarea>
+
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html#contact">
+
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <button class="btn" type="submit">
+                            <span data-section="contact" data-value="span-send-contact">Send Message</span>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+            </form>
+         </section>
+
+         <!-- ======== Footer ========= -->
+         <footer>
+            <div class="footer_bg">
+                <div class="footer_container container">
+                    <div class="main_footer">
+                        <div class="footer_social">
+                            <a href="https://www.linkedin.com/in/carlos-rios-dev/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                            <a href="https://github.com/CarlosRios-dev" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                        </div>
+                        <h3>Carlos Rios</h3>
+                        <p data-section="footer" data-value="p-description-footer">
+                            This portfolio was made with the following technologies.
+                        </p>
+                        <div class="technologies">
+                            <a>
+                                <ion-icon name="logo-html5"></ion-icon> 
+                                <ion-icon name="logo-css3"></ion-icon>
+                                <ion-icon name="logo-javascript"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer_copy" data-section="footer" data-value="div-copyright-footer">
+                        &#169; CarlosRios. All right reserved
+                    </div>
+                </div>
+            </div>
+         </footer>
+    </main>
+    
+    <!-- Mixitup -->
+    <script src="/js/mixitup.min.js"></script>
+
+    <!-- Typed JS -->
+    <script src="/js/typed.umd.js"></script>
+
+    <!-- Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Main Script.JS -->
+    <script src="/js/main.js"></script>
+</body>
+</html>
