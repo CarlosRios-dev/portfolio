@@ -45,7 +45,8 @@
         "div-view-projects": "Ver",
         "div-code-projects": "código",
         "p-login-projects": "Simple inicio de sesión no funcional",
-        "p-pokedex-projects": "Pokedex hecha con PokeApi"
+        "p-pokedex-projects": "Pokedex hecha con PokeApi",
+        "p-snakeGame-projects": "Juego de la serpiente"
     },
 
     "contact": {

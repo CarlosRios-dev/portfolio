@@ -45,7 +45,8 @@
         "div-view-projects": "View",
         "div-code-projects": "Code",
         "p-login-projects": "simple login not functional",
-        "p-pokedex-projects": "Pokedex with PokeApi"
+        "p-pokedex-projects": "Pokedex with PokeApi",
+        "p-snakeGame-projects": "Snake Game"
     },
 
     "contact": {
