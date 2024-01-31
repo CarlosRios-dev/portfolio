@@ -318,7 +318,7 @@ header .container {
     position: relative;
     display: block;
     background-color: var(--title-color);
-    background-image: url("/assets/stars2.png");
+    background-image: url("../assets/stars2.png");
 }
 
 .hero::before {
@@ -1113,11 +1113,11 @@ header .container {
     padding: 0 50px;
 }
 
-.contact_content span {
+.contact_content .contact-form {
     font-size: 18px;
     font-weight: 600;
-    color: var(--purple-color);
     padding: 15px;
+    color: var(--purple-color);
 }
 
 .inputs {
