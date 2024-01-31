@@ -1087,6 +1087,7 @@ header .container {
     left: 50%;
     transform: translate(-50%) rotate(45deg);
     box-shadow: 0 0 10px #fff;
+    z-index: -1;
 }
 
 

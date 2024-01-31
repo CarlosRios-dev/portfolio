@@ -42,6 +42,8 @@
         "li-all-projects": "Todo",
         "li-app-projects": "Aplicación",
         "li-card-projects": "Carta",
+        "div-view-projects": "Ver",
+        "div-code-projects": "código",
         "p-login-projects": "Simple inicio de sesión no funcional",
         "p-pokedex-projects": "Pokedex hecha con PokeApi"
     },
