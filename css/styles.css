@@ -318,7 +318,7 @@ header .container {
     position: relative;
     display: block;
     background-color: var(--title-color);
-    background-image: url("./assets/stars2.png");
+    background-image: url("../assets/stars2.png");
 }
 
 .hero::before {
