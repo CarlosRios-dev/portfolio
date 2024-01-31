@@ -10,14 +10,14 @@
     "hero": {
         "h4-greeting-hero": "<span>Hola,</span> soy yo",
         "h1-im-hero": "y soy",
-        "p-presentation-hero": "Soy un diseñador creativo, apasionado y dedicado a crear diseños innovadores y visualmente atractivos en cada proyecto.",
+        "p-presentation-hero": "Soy un desarrollador creativo, apasionado y enfocado en la creación de proyectos innovadores y visualmente atractivos en cada ocasión.",
         "a-downloadcv-hero": "Descargar CV"
     },
 
     "about": {
         "h2-about-about": "Sobre Mi",
         "h1-title-about": "Desarrollador",
-        "p-paragraph-about": "Apasionado por el diseño gráfico y la experiencia de usuario, me destaco por mi contribución en proyectos académicos, como la creación de un repositorio web innovador y colaborar en el desarrollo de una aplicación móvil.<br><br>Busco oportunidades para aplicar mi creatividad, aprender en un entorno profesional y sobresalir en diseño digital."
+        "p-paragraph-about": "Apasionado por la calidad y la experiencia del usuario, me destaco por mis contribuciones en proyectos académicos, tales como la creación de un repositorio web innovador y la colaboración en el desarrollo de una aplicación móvil. <br><br>Estoy en búsqueda de oportunidades para aplicar mi creatividad, aprender en un entorno profesional y destacarme en cualquier desafío que se me presente"
     },
 
     "resume": {

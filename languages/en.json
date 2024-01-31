@@ -10,14 +10,14 @@
     "hero": {
         "h4-greeting-hero": "<span>Hi There,</span> It's Me",
         "h1-im-hero": "And I'm a",
-        "p-presentation-hero": "I'm a creative designer, passionate and dedicated to crafting innovative and visually appealing designs in every project.",
+        "p-presentation-hero": "I am a creative, passionate developer focused on creating innovative and visually appealing projects in every endeavor.",
         "a-downloadcv-hero": "Download CV"
     },
 
     "about": {
         "h2-about-about": "About Me",
         "h1-title-about": "Full Stack Developer",
-        "p-paragraph-about": "Passionate about graphic design and user experience, I stand out for my contribution to academic projects, such as creating an innovative web repository and collaborating on the development of a mobile application.<br><br> I am seeking opportunities to apply my creativity, learn in a professional environment, and excel in digital design."
+        "p-paragraph-about": "Passionate about quality and user experience, I stand out for my contributions in academic projects, such as creating an innovative web repository and collaborating in the development of a mobile application. <br><br>I am seeking opportunities to apply my creativity, learn in a professional environment, and excel in whatever I set out to achieve."
     },
 
     "resume": {

@@ -528,6 +528,10 @@ header .container {
     padding-top: 15px;
 }
 
+.about_content {
+    padding-left: 15%;
+}
+
 .about_content h1 {
     color: var(--purple-color);
     font-size: 25px;
@@ -572,6 +576,10 @@ header .container {
     .about_container {
         grid-template-columns: 3fr 2fr;
     }
+
+    .about_content {
+        padding-left: 0%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -588,6 +596,10 @@ header .container {
     .about_info > div .text {
         font-size: 14px;
     }
+
+    .about_content {
+        padding-left: 0%;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -598,6 +610,10 @@ header .container {
     .about #mountains_behind {
         width: auto;
         top: 0;
+    }
+
+    .about_content {
+        padding-left: 0%;
     }
 }
 
