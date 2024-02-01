@@ -1023,7 +1023,6 @@ header .container {
 }
 
 .portfolio_info p {
-    text-transform: uppercase;
     text-shadow: 0 0 5px var(--title-color);
 }
 
