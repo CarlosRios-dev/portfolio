@@ -8,8 +8,8 @@
     },
 
     "hero": {
-        "h4-greeting-hero": "<span>Hi There,</span> It's Me",
-        "h1-im-hero": "And I'm a",
+        "h4-greeting-hero": "<span>Hi There</span>, It's Me",
+        "h3-im-hero": "And I'm a",
         "p-presentation-hero": "I am a creative, passionate developer focused on creating innovative and visually appealing projects in every endeavor.",
         "a-downloadcv-hero": "Download CV"
     },
@@ -22,8 +22,14 @@
 
     "resume": {
         "h2-resume-title": "Resume",
+        "a-experience-resume": "Experience",
         "a-education-resume": "Education",
         "a-skills-resume": "skills",
+        "div-experience-resume": "Experience",
+        "h4-nameExperience-resume": "QA Automation Engineer (Internship/Training)",
+        "span-roleExperience-resume": "Independent professional",
+        "span-date-resume": "October. 2024 - present",
+        "p-paragraphExperience-resume": "- Developed and optimized test automation scripts using Selenium, Cucumber, and Java.<br>- Validated filters and dynamic web elements, ensuring accurate test execution.<br>- Identified and modified locators for elements in pages that change over time.<br>- Wrote and updated test cases, improving efficiency and coverage.<br>- Documented test results and reported bugs or failures, contributing to better software quality.<br>- Gained hands-on experience in QA best practices, debugging, and automation frameworks.",
         "div-education-resume": "Education",
         "h4-technician-resume": "Professional Technician in Computer Applications Programming",
         "span-university-resume": "Cotecnova University",

@@ -90,7 +90,7 @@ ul {
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
     border: 2px solid #ffffff2e;
-    box-shadow: 0 0px 20px #ffffff5e;
+    box-shadow: 0 0px 15px var(--title-color);
 }
 
 .glass-effect2 {
@@ -166,7 +166,7 @@ header {
 
 header.active {
     background-color: var(--title-color);
-    box-shadow: 0 5px 10px #b08aee5e;
+    box-shadow: 0 5px 10px #6319db5e;
 }
 
 header .container {
@@ -180,6 +180,7 @@ header .container {
     height: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     color: var(--seconde-color);
 }
 
@@ -202,6 +203,7 @@ header .container {
     cursor: pointer;
     display: block;
     border-radius: 50%;
+    border: solid 2px var(--seconde-color);
     transition: .2s;
 }
 
@@ -318,7 +320,11 @@ header .container {
     position: relative;
     display: block;
     background-color: var(--title-color);
-    background-image: url("../assets/stars2.png");
+    background-image: url("../assets/deep_space3.webp");
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed;
 }
 
 .hero::before {
@@ -344,26 +350,33 @@ header .container {
 }
 
 .hero_container h4 span {
+    font-size: 35px;
     color: var(--purple-color);
+    text-shadow: 0 0 4px var(--title-color);
+}
+.hero_container .grid_container {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
 }
 
 .hero_container h3 {
-    font-size: 50px;
+    font-size: 25px;
     font-weight: 600;
     color: white;
+    text-align: center;
+}
+
+.hero_container h3 span {
+    font-size: 35px;
+    color: var(--purple-color);
+    text-shadow: 0 0 4px var(--title-color);
 }
 
 .rol_container {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.hero_container .rol_container h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    color: white;
-    padding-right: 2.5%;
 }
 
 .hero_container .rol_container span {
@@ -377,8 +390,8 @@ header .container {
 
 .hero_container p {
     margin: 10px 0 40px;
-    color: var(--seconde-color);
-    text-shadow:  0px 0px 15px black;
+    color: white;
+    text-shadow:  0px 0px 5px black;
     font-size: 15px;
 }
 
@@ -419,17 +432,40 @@ header .container {
     filter: drop-shadow(4px 6px 12px var(--purple-color));
 }
 
-@media screen and (max-width: 768px) {
-    .hero_content h4 {
-        font-size: 18px;
+@media screen and (max-width: 818px) {
+    .hero_container .grid_container {
+        flex-direction: column;
+        gap: 0;
     }
 
-    .hero_content .rol_container h1, .hero_content .rol_container span {
-        font-size: 18px;
+    .hero_container .rol_container span {
+        font-size: 25px;
+    }
+
+    .hero_container h3 span {
+        font-size: 25px;
+    }
+
+    .hero_container h4 span {
+        font-size: 25px;
+    }
+
+    .hero_container h4 {
+        font-size: 20px;
     }
 
     .hero_content h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero_content .rol_container h1, .hero_content .rol_container span {
         font-size: 25px;
+    }
+
+    .hero_content h3 {
+        font-size: 20px;
     }
 
     .hero_content p {
@@ -443,6 +479,10 @@ header .container {
         justify-content: center;
     }
 
+    .hero_container .grid_container {
+        align-items: center;
+    }
+
     .hero_content {
         order: 2;
         text-align: center;
@@ -454,10 +494,6 @@ header .container {
 
     .rol_container {
         justify-content: center;
-    }
-
-    .hero_content .rol_container h1, .hero_content .rol_container span {
-        font-size: 19px; 
     }
 
     .hero_img {
@@ -677,7 +713,7 @@ header .container {
 
 .page_heading {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: bold;
     color: var(--purple-color);
     margin-bottom: 25px;
 }
@@ -712,6 +748,7 @@ header .container {
 
 .resume_wrap .date {
     font-weight: 600;
+    color: var(--title-color);
 }
 
 .resume_wrap-content h4 {
@@ -720,9 +757,10 @@ header .container {
 }
 
 .resume_wrap-content .position {
-    color: var(--purple-color);
-    font-size: 14px;
+    color: var(--subtitle-color);
+    font-size: 15px;
     font-weight: 400;
+    font-weight: bold;
 }
 
 .resume_wrap-content p {
@@ -1214,7 +1252,7 @@ textarea:focus {
 
 .footer_social a {
     background-color: #fff;
-    color: var(--title-color);
+    color: var(--main-color);
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -1230,7 +1268,7 @@ textarea:focus {
     box-shadow: 0 0 10px var(--purple-color);
 }
 
-.main_footer .technologies a {
+.main_footer .technologies {
     font-size: 40px;
 }
 

@@ -8,22 +8,28 @@
     },
 
     "hero": {
-        "h4-greeting-hero": "<span>Hola,</span> soy yo",
-        "h1-im-hero": "y soy",
+        "h4-greeting-hero": "<span>¡Hola, Qué Tal!</span> Aquí",
+        "h3-im-hero": "Y Soy ",
         "p-presentation-hero": "Soy un desarrollador creativo, apasionado y enfocado en la creación de proyectos innovadores y visualmente atractivos en cada ocasión.",
         "a-downloadcv-hero": "Descargar CV"
     },
 
     "about": {
         "h2-about-about": "Sobre Mi",
-        "h1-title-about": "Desarrollador",
+        "h1-title-about": "Desarrollador Full Stack",
         "p-paragraph-about": "Apasionado por la calidad y la experiencia del usuario, me destaco por mis contribuciones en proyectos académicos, tales como la creación de un repositorio web innovador y la colaboración en el desarrollo de una aplicación móvil. <br><br>Estoy en búsqueda de oportunidades para aplicar mi creatividad, aprender en un entorno profesional y destacarme en cualquier desafío que se me presente"
     },
 
     "resume": {
         "h2-resume-title": "Resumen",
+        "a-experience-resume": "Experiencia",
         "a-education-resume": "Educación",
         "a-skills-resume": "Habilidades",
+        "div-experience-resume": "Experiencia",
+        "h4-nameExperience-resume": "Ingeniero de Automatización de Control de Calidad (Pasantía/Capacitación)",
+        "span-roleExperience-resume": "Profesional independiente",
+        "span-date-resume": "Octubre. 2024 - actualidad",
+        "p-paragraphExperience-resume": "- Desarrollé y optimicé scripts de automatización de pruebas utilizando Selenium, Cucumber y Java. <br>- Filtros validados y elementos web dinámicos, lo que garantiza una ejecución precisa de las pruebas. <br>- Localizadores identificados y modificados para elementos en páginas que cambian con el tiempo. <br>- Redacción y actualización de casos de prueba, mejorando la eficiencia y la cobertura. <br>- Resultados de pruebas documentados y errores o fallas reportados, lo que contribuye a una mejor calidad del software. <br>- Experiencia práctica adquirida en las mejores prácticas de control de calidad, depuración y marcos de automatización.",
         "div-education-resume": "Educación",
         "h4-technician-resume": "Técnico profesional en programación de aplicaciones informáticas",
         "span-university-resume": "Universidad de Cotecnova",

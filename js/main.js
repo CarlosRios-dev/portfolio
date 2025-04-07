@@ -46,19 +46,34 @@ flagsElement.addEventListener('click', (e) => {
 });
 
 //Hero type effect
-const typed = document.querySelector('.typed');
+let typedInstance;
+const typedElement = document.querySelector('.typed');
 
-if(typed) {
-    let typed_strings = typed.getAttribute('data-typed-items');
-    typed_strings = typed_strings.split(',');
-    new Typed('.typed', {
-        strings: typed_strings,
+const translations = {
+    en: "Test Automation, Designer, Full Stack Developer ",
+    es: "Automatizador, Diseñador, Full Stack"
+};
+
+function initializeTyped() {
+    if (typedInstance) typedInstance.destroy(); 
+    const typedStrings = typedElement.getAttribute('data-typed-items').split(',');
+    typedInstance = new Typed('.typed', {
+        strings: typedStrings,
         loop: true,
         typeSpeed: 100,
         backSpeed: 50,
         backDelay: 2000
     });
 }
+document.querySelectorAll('.flags_item').forEach(item => {
+    item.addEventListener('click', () => {
+        const lang = item.getAttribute('data-language');
+        typedElement.setAttribute('data-typed-items', translations[lang]); 
+        initializeTyped(); 
+    });
+});
+
+initializeTyped();
 
 //Scroll sections active link
 const sections = document.querySelectorAll('section[id]');

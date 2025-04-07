@@ -19,10 +19,10 @@
             </a>
             <div id="flags" class="flags">
                 <div class="flags_item" data-language="es">
-                    <img src="assets/es.svg" alt="">
+                    <img src="assets/es.svg" alt="Español">
                 </div>
                 <div class="flags_item" data-language="en">
-                    <img src="assets/gb.svg" alt="">
+                    <img src="assets/gb.svg" alt="English">
                 </div>
             </div>
             <ul class="menu">
@@ -52,13 +52,14 @@
         <section class="hero section" id="hero">
             <div class="hero_container container grid glass-effect">
                 <div class="hero_content">
-                    <h4 data-section="hero" data-value="h4-greeting-hero"><span>Hi There,</span> It's Me</h4>
-                    <h3 >Carlos Rios</h3>
-                    <div class="rol_container">
-                        <h1 data-section="hero" data-value="h1-im-hero">And I'm a </h1>
-                        <span class="typed" data-typed-items="FrontEnd, Designer, Developer"></span>
+                    <h4 data-section="hero" data-value="h4-greeting-hero"><span>Hi There</span>, It's Me</h4>
+                    <div class="grid_container">
+                        <h3 ><span>Carlos Rios</span></h3>  
+                        <h3 data-section="hero" data-value="h3-im-hero">And I'm a</h3>
                     </div>
-                    
+                    <div class="rol_container">
+                        <span class="typed" data-typed-items="Test Automation, Designer, Full Stack Developer"></span>
+                    </div>
                     <p data-section="hero" data-value="p-presentation-hero">
                         I am a creative, passionate developer focused on creating innovative and visually appealing projects in every endeavor.
                     </p>
@@ -67,24 +68,24 @@
                         <a href="https://github.com/CarlosRios-dev" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
                     </div>
                     <div class="herobtns">
-                        <a href="assets/CV.pdf" class="btn">
+                        <a href="assets/CV 2-0.pdf" class="btn">
                             <span data-section="hero" data-value="a-downloadcv-hero">Download CV</span>
                             <ion-icon name="chevron-forward-outline"></ion-icon>
                         </a>
                     </div>
                 </div>
                 <div class="hero_img">
-                    <img src="assets/space.png" alt="space" class="img-fluid">
+                    <img src="assets/space.webp" alt="space" class="img-fluid">
                 </div>
             </div>
         </section>
 
          <!-- ======== About Section ========= -->
          <section class="about section" id="about">
-            <img src="assets/stars.png" alt="stars" id="stars">
-            <img src="assets/moon.png" alt="moon" id="moon">
-            <img src="assets/mountains_behind.png" alt="mountains_behind" id="mountains_behind">
-            <img src="assets/mountains_front.png" alt="mountains_behind" id="mountains_front">
+            <img src="assets/stars.webp" alt="stars" id="stars">
+            <img src="assets/moon.webp" alt="moon" id="moon">
+            <img src="assets/mountains_behind.webp" alt="mountains_behind" id="mountains_behind">
+            <img src="assets/mountains_front.webp" alt="mountains_behind" id="mountains_front">
             <div class="allabout">
                 <div class="titleh2 container">
                     <h2 class="section_title" data-section="about" data-value="h2-about-about">About Me</h2>
@@ -92,7 +93,7 @@
     
                 <div class="about_container container grid glass-effect">
                     <div class="about_img">
-                        <img src="assets/Coding.png" alt="">
+                        <img src="assets/Coding.webp" alt="">
                     </div>
                     <div class="about_content">
                         <h1 data-section="about" data-value="h1-title-about">Full Stack Developer</h1>
@@ -114,11 +115,11 @@
                 <div class="resume_tabs">
                     <ul>
                         <li>
-                            <a href="#page-1" class="current" data-section="resume" data-value="a-education-resume">Education</a>
+                            <a href="#page-1" data-section="resume" data-value="a-experience-resume">Experience</a>
                         </li>
-                        <!-- <li>
-                            <a href="#page-2">Experience</a>
-                        </li> -->
+                        <li>
+                            <a href="#page-2" class="current" data-section="resume" data-value="a-education-resume">Education</a>
+                        </li>
                         <li>
                             <a href="#page-3" data-section="resume" data-value="a-skills-resume">Skills</a>
                         </li>
@@ -126,6 +127,27 @@
                 </div>
                 <div class="resume_content">
                     <div id="page-1" class="page one">
+                        <div class="page_heading" data-section="resume" data-value="div-experience-resume">Experience</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="briefcase-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date" data-section="resume" data-value="span-date-resume">October. 2024 - present</span>
+                                <h4 data-section="resume" data-value="h4-nameExperience-resume">QA Automation Engineer (Internship/Training)</h4>
+                                <span class="position" data-section="resume" data-value="span-roleExperience-resume">Independent professional</span>
+                                <p data-section="resume" data-value="p-paragraphExperience-resume">
+                                    - Developed and optimized test automation scripts using Selenium, Cucumber, and Java.<br>
+                                    - Validated filters and dynamic web elements, ensuring accurate test execution.<br>
+                                    - Identified and modified locators for elements in pages that change over time.<br>
+                                    - Wrote and updated test cases, improving efficiency and coverage.<br>
+                                    - Documented test results and reported bugs or failures, contributing to better software quality.<br>
+                                    - Gained hands-on experience in QA best practices, debugging, and automation frameworks.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="page-2" class="page one">
                         <div class="page_heading" data-section="resume" data-value="div-education-resume">Education</div>
                         <div class="resume_wrap">
                             <div class="resume_wrap-icon">
@@ -167,7 +189,6 @@
                             </div>
                         </div>
                     </div>
-                    
                     <div id="page-3" class="page three">
                         <div class="page_heading gl" data-section="resume" data-value="div-titleSkills-resume">Skills</div>
                         <div class="slider">
@@ -304,6 +325,7 @@
          </section>
 
          <!-- ======== Contact Section ========= -->
+        <!--
          <section class="contact section" id="contact">
             <div class="container">
                 <h2 class="section_title" data-section="contact" data-value="h2-contact-contact">Contact Me</h2>
@@ -330,7 +352,8 @@
                     </div>
                 </div>
             </form>
-         </section>
+         </section> 
+        -->
 
          <!-- ======== Footer ========= -->
          <footer>
@@ -346,15 +369,13 @@
                             This portfolio was made with the following technologies.
                         </p>
                         <div class="technologies">
-                            <a>
                                 <ion-icon name="logo-html5"></ion-icon> 
                                 <ion-icon name="logo-css3"></ion-icon>
                                 <ion-icon name="logo-javascript"></ion-icon>
-                            </a>
                         </div>
                     </div>
                     <div class="footer_copy" data-section="footer" data-value="div-copyright-footer">
-                        &#169; CarlosRios. All right reserved
+                        &#169; CarlosRios. 
                     </div>
                 </div>
             </div>
